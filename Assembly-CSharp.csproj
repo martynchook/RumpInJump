@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{94b74aa6-2420-c3aa-0c98-1a083c66c83b}</ProjectGuid>
+    <ProjectGuid>{47f33db6-cf2d-7fa6-de01-de6890326af1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,6 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game\CubeJump.cs" />
+     <Compile Include="Assets\Game\DeleteBlock.cs" />
+     <Compile Include="Assets\Game\Harder.cs" />
+     <Compile Include="Assets\Game\MoveCubes.cs" />
      <Compile Include="Assets\Game\SpawnBlocks.cs" />
      <Compile Include="Assets\Scripts\ButtonsAction.cs" />
      <Compile Include="Assets\Scripts\FallCubes.cs" />
@@ -578,85 +582,91 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp jump/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>G:/TECHNOLOGIES/UNITY_C#/projects/Ramp in jump/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ public class GameArrangement : MonoBehaviour
 
     public GameObject [] cubes;
     public GameObject buttons, mainCube, spawn_blocks;
-    public Text tapToPlayTxt, logoTxt;
+    public Text tapToPlayTxt, logoTxt, study;
     public Animation cubes_anim, block;
     public Light dirLight, dirLight2;
 
@@ -19,13 +19,14 @@ public class GameArrangement : MonoBehaviour
            dirLight.intensity -= 0.03f;
        }
     }
-
+    
     private void OnMouseDown() {
         if (!clicked) {
             StartCoroutine(delCubes());
             clicked = true;
             tapToPlayTxt.gameObject.SetActive(false);
             logoTxt.text = "0";
+             study.gameObject.SetActive(true);
             logoTxt.GetComponent<Animation>().Play("StartLogo");
             logoTxt.alignment = TextAnchor.MiddleCenter;  
             buttons.GetComponent<Animation>().Play("StartBtn");
@@ -33,10 +34,15 @@ public class GameArrangement : MonoBehaviour
             StartCoroutine(cubeToBlock());
             mainCube.transform.localScale = new Vector3 (1f, 1f, 1f);
             cubes_anim.Play();
+            
+        } else  if (clicked && study.gameObject.activeSelf) {
+            study.gameObject.SetActive(false);
         }
     }
 
     IEnumerator delCubes () {
+        //Add RigidBody component
+        mainCube.AddComponent<Rigidbody> ();
         for (int i=0; i < 3; i++) {
             yield return new WaitForSeconds(0.33f);
             cubes[i].GetComponent<FallCubes>().enabled = true;
