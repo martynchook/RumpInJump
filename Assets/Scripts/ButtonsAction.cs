@@ -1,8 +1,10 @@
 ﻿
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ButtonsAction : MonoBehaviour
-{
+{ 
     private void OnMouseDown()
     {
         transform.localScale += new Vector3 (0.1f, 0.1f, 0.1f);
@@ -12,5 +14,10 @@ public class ButtonsAction : MonoBehaviour
     {
         transform.localScale -= new Vector3 (0.1f, 0.1f, 0.1f);
     }
+
+    public void RestartGame () {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }
  

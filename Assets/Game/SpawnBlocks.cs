@@ -7,7 +7,7 @@ public class SpawnBlocks : MonoBehaviour
     public GameObject block, allCubes;
     private GameObject blockInst;
     private Vector3 blockPos;
-    private float speed = 7f;
+    private float speed = 10f;
     private bool onPlace;
 
     void Start() {
@@ -39,8 +39,8 @@ public class SpawnBlocks : MonoBehaviour
     }
 
     void spawn () {
-        blockPos = new Vector3(Random.Range(0.9f, 1.6f), Random.Range(-3.5f, 2f), 6.2f);
-        blockInst = Instantiate (block, new Vector3(0f, -5.4f, 0f), Quaternion.identity);
+        blockPos = new Vector3(Random.Range(0.9f, 1.6f), Random.Range(-2.5f, 2f), 6.2f);
+        blockInst = Instantiate (block, new Vector3(2f, -5.4f, 0f), Quaternion.identity);
         blockInst.transform.localScale = new Vector3 (RandScale (), blockInst.transform.localScale.y, blockInst.transform.localScale.z);
         blockInst.transform.parent = allCubes.transform;
     }

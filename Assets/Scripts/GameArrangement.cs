@@ -8,7 +8,7 @@ public class GameArrangement : MonoBehaviour
 
     public GameObject [] cubes;
     public GameObject buttons, mainCube, spawn_blocks;
-    public Text tapToPlayTxt, logoTxt, study;
+    public Text tapToPlayTxt, logoTxt, study, record;
     public Animation cubes_anim, block;
     public Light dirLight, dirLight2;
 
@@ -26,7 +26,8 @@ public class GameArrangement : MonoBehaviour
             clicked = true;
             tapToPlayTxt.gameObject.SetActive(false);
             logoTxt.text = "0";
-             study.gameObject.SetActive(true);
+            record.gameObject.SetActive(true);
+            study.gameObject.SetActive(true);
             logoTxt.GetComponent<Animation>().Play("StartLogo");
             logoTxt.alignment = TextAnchor.MiddleCenter;  
             buttons.GetComponent<Animation>().Play("StartBtn");
