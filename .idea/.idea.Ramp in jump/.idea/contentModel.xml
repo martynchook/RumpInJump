@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Pavel\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Pavel\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Ramp in jump.-1854722953.00" t="ExcludeRecursive" />
+    <e p="G:\TECHNOLOGIES\UNITY_C#\projects\Ramp in jump" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Game" t="Include">
+          <e p="CubeJump.cs" t="Include" />
+          <e p="DeleteBlock.cs" t="Include" />
+          <e p="Harder.cs" t="Include" />
+          <e p="MoveCubes.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="SpawnBlocks.cs" t="Include" />
+        </e>
+        <e p="Minimalist Free v2.4.2" t="Include">
+          <e p="Documentation" t="Include">
+            <e p="Readme.txt" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="EditorGUILayoutExtended.cs" t="Include" />
+            <e p="MinimalistClipboard.cs" t="Include" />
+            <e p="MinimalistSkyEditor.cs" t="Include" />
+            <e p="MinimalistStandardEditor.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BuiltInRenderPipeline" t="Include">
+              <e p="Minimalist Standard LocalSpace.shader" t="Include" />
+              <e p="Minimalist Standard.shader" t="Include" />
+            </e>
+            <e p="LightweightRenderPipeline" t="Include">
+              <e p="Minimalist Standard LocalSpace LWRP.shader" t="Include" />
+              <e p="Minimalist Standard LWRP.shader" t="Include" />
+            </e>
+            <e p="Minimalist Sky.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ButtonsAction.cs" t="Include" />
+          <e p="FallCubes.cs" t="Include" />
+          <e p="GameArrangement.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Ramp in jump.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
